@@ -1,0 +1,796 @@
+<!DOCTYPE HTML>
+<html class="popup">
+	<head>
+		<title>Colgate Technology Immersion Week 2022 - Programming Workshops</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/custom.css" />
+        <link rel="stylesheet" href="assets/css/custom.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Karla&family=Secular+One&display=swap" rel="stylesheet">
+	</head>
+	<body class="iframe">
+        <header class="popup-header">
+            <h1>PROGRAMMING WORKSHOPS</h1>
+        </header>
+        
+        <p>Each workshop is hosted by a fellow Colgate student and is a hands-on programming session designed to introduce you to a new programming language or framework. There are three levels of proficiency:
+        </p>
+        <ol>
+            <li>
+                <div class="subtitle">
+                    <h3>BEGINNER: no coding experience required (open to ALL majors)</h3>
+                </div>
+            </li>
+            <li>
+                <h3>INTERMEDIATE: some coding experience required (CS 101/102)</h3>
+            </li>
+            <li>
+                <h3>ADVANCED: working knowledge of programming languages and frameworks OR attendance to our Beginner and Intermediate level workshops
+                </h3>
+            </li>
+        </ol>
+
+        <p>Also, some workshops are part of a series and are recommended to attend in succession. <a href="#all-series">Click here to see all recommended series.</a></p>
+
+        <h2>BEGINNER</h2>
+        <ul>
+            <li>
+                <div id="webdev-details" class="workshop-title-time">
+                    <h3>Web Development Fundamentals</h3>
+                    <p class="time"> Monday, March 28th, 6-7 PM</p>
+                    <a href="#personal-site-series">
+                        <button class="event-type personal-site-series btn">
+                            Building a personal website with GitHub Pages pt. 1
+                        </button>
+                    </a>
+                </div>
+                <p class="host">Hosted by Lily Davisson '22</p>
+                <p>Learn the basics of HTML and CSS to create static websites and create a one page personal website.</p>
+                <button class="neutral collapse centered">
+                    Setup instructions
+                </button>
+                <div class="instructions">
+                    <ol>
+                        <li>
+                            <p>
+                                Install <a href="">Visual Studio Code</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Install the Live Server extension for Visual Studio Code by navigating to the extensions tab on the left vertical 
+                                menu (looks like building blocks) and searching for <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server by Ritwick Dey</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Install <a href="https://www.mozilla.org/en-US/firefox/windows/">Mozilla Firefox</a>
+                            </p>
+                            <p>
+                                You can use Firefox or Chrome for web development, but Firefox has the best tools.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Set Firefox as your default browser for when you launch live server.
+                                Open the VScode command palette under view>command palette
+                            </p>
+                            <img src="images/workshop_images/webdev1.png">
+                        </li>
+                        <li>
+                            <p>
+                                Type preferences, and click on the "open workspace settings" result
+                            </p>
+                            <img src="images/workshop_images/webdev2.png">
+                        </li>
+                        <li>
+                            <p>
+                                In settings, search for "liveServer.settings.CustomBrowser" and switch the dropdown from null to Firefox
+                            </p>
+                            <img src="images/workshop_images/webdev3.png">
+                        </li>
+                        <li>
+                            <p>Create a GitHub account: <a href="https://github.com/">https://github.com/</a></p>
+                        </li>
+                        <li>
+                            <p>
+                                Follow along with the "complete" code <a href="https://github.com/techimmersionweek22/Demo-Personal-Site">here</a>.
+                                You can look through the files and copy and paste into your own files or clone (copy, basically) the entire repository (all of the files) to your computer. We 
+                                will also go over this part in the demo, but feel free to clone it on your own time as well.
+                            </p>
+                            <p>Ex to clone the repo to your desktop: (type these in a terminal, but do not include the $ symbol, that indicates you should be typing the following code in a terminal or command line)</p>  
+                            <code>
+                                $ cd Desktop
+                            </code>
+                            <code>
+                                $ git clone https://github.com/techimmersionweek22/Demo-Personal-Site.git
+                            </code>
+                            <p><a href="https://www.tutorialspoint.com/how-to-clone-a-github-repository">Here's an article</a> with some more detail.</p>
+                        </li>
+                    </ol>
+                </div>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/C15UkWl7Z_U" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="https://docs.google.com/presentation/d/1Dg-1ckYMn0jE3ed6bapO6RUFYbbt01tArSaTzCV9QQ4/edit?usp=sharing" target="_blank">Open presentation slides in Google slides</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="assets/other_files/Web Development Basics.pdf" download="">Download presentation slides as PDF</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="https://github.com/techimmersionweek22/Demo-Personal-Site">
+                                    "Complete" demo site repository
+                                </a>   
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="ide-details" class="workshop-title-time">
+                    <h3>Intro to IDEs</h3>
+                    <p class="time">Monday, March 28th, 7-8 PM</p>
+                </div>
+                <p class="host">Hosted by Thanh Dang '25, Taz Syed '22</p>
+                <p>Technically, you can write code on Microsoft Excel — but that doesn’t mean you have to. Learn about the most popular development tools and how they can help you write correct and maintainable code.</p>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/NLcQQZauu3o" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="data-science-details" class="workshop-title-time">
+                    <h3>Data Science Basics</h3>
+                    <p class="time">Wednesday, March 30th, 7-8 PM</p>
+                </div>
+                <p class="host">Hosted by Taz Syed '22</p>
+                <p>Data science is one of the most popular fields today, and almost every programmer will have to wrangle with data one way or another. Learn how to solve a data problem from start to finish, and see if statistical analysis is for you!
+                </p>
+                <button class="neutral collapse centered">
+                    Setup instructions
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li><p>
+                            <a href="https://docs.google.com/document/d/11mAvKW5ce8YdO_RZEOKhMdnLwUzxJ8t_TiBLqvMOOIg/edit?usp=sharing">Setup Instructions</a>
+                        </p></li>
+                    </ul>
+                </div>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/y6WKOFUsrGA" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="networking-details" class="workshop-title-time">
+                    <h3>Networking 101</h3>
+                    <p class="time">Friday, April 1st, 6-7 PM</p>
+                </div>
+                <p class="host">Hosted by Alex Ng '22</p>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/vz-_89yTTXA" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="https://docs.google.com/presentation/d/1wEHvPt0UZvVveNgSCgPORLrSxzpLbmoK/edit?usp=sharing&ouid=104661200335124948595&rtpof=true&sd=true" target="_blank">Presentation Slides</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="https://docs.google.com/spreadsheets/d/1odVVboIOBLJA9Q8LIU8IHLIAY8cjYVIG/edit?usp=sharing&ouid=104661200335124948595&rtpof=true&sd=true" target="_blank">Networking Tracker Spreadsheet</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <p>Networking has become almost necessary to get a foot in the door to high-demand roles in industries like tech, finance, and consulting. Learn best practices regarding networking to land your dream job!</p>
+            </li>
+            <li>
+                <div id="blockchain-details" class="workshop-title-time">
+                    <h3>Blockchain Basics</h3>
+                    <p class="time">Sunday, April 3rd, 5-6 PM</p>
+                </div>
+                <p class="host">Hosted by Alex Ng '22</p>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/ffoKvNg4Lpk" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <p>Blockchain is an emerging technology that has seen rapid growth and demand in recent years. This workshop will cover the technicals of what the blockchain is and offer a discussion on its potential.</p>
+            </li>
+            <li>
+                <div id="python-details" class="workshop-title-time">
+                    <h3>Python Basics</h3>
+                    <p class="time">Sunday, April 3rd, 6-7 PM</p>
+                </div>
+                <p class="host">Hosted by Honorine Kwizera '24</p>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/5Qcm-kNbrU0" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="github-details" class="workshop-title-time">
+                    <h3>GitHub 101</h3>
+                    <p class="time">Monday, April 4th, 6-7 PM</p>
+                </div>
+                <p class="host">Hosted by Josiah Paintsil '23</p>
+                <p>The GitHub 101 workshop will be an interactive workshop where we go over all the basics of GitHub. We will go over how to use GitHub for personal use, collaborative use, review some helpful commands, and practice some useful yet advanced techniques. </p>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/ErBlLb8X3Sw" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="cl-details" class="workshop-title-time">
+                    <h3>Command Line Fundamentals</h3>
+                    <p class="time">Tuesday, April 5th, 6-7 PM</p>
+                </div>
+                <p class="host">Hosted by Zach Birenbaum '22</p>
+                <p>This workshop will cover important skills for working at the command line locally, or on a remote server, including navigation, file editing, writing and using basic scripts, building applications and more.</p>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/NqcaKQLM1Cg" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="java-details" class="workshop-title-time">
+                    <h3>Java Basics</h3>
+                    <p class="time">Tuesday, April 5th, 7-8 PM</p>
+                </div>
+                <p class="host">Hosted by Maeve Farley '24</p>
+                <p>Come learn the basics of Java, one of the most used programming languages! The fundamentals of Java will be taught before applying them to some practice problems. </p>
+                <button class="neutral collapse centered">
+                    Setup instructions
+                </button>
+                <div class="instructions">
+                    <ul class="setup">
+                        <li>
+                            <p>
+                                Visit <a class="contact-link" href="https://codingbat.com/java">https://codingbat.com/java</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>Click create new account in top right hand corner (unless you already have an account)</p>
+                        </li> 
+                        <li>
+                            <p>Use preferred email and create a password</p>
+                        </li>
+                    </ul>
+                </div>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/iri_Swy27Zo" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="r-details" class="workshop-title-time">
+                    <h3>R Basics</h3>
+                    <p class="time">Thursday, April 7th, 6-7 PM</p>
+                </div>
+                <p class="host">Hosted by Taz Syed '22</p>
+                <button class="neutral collapse centered inactive">
+                    Setup instructions coming soon
+                </button>
+                <div class="instructions">
+                </div>
+            </li>
+            <li>
+                <div id="no-code-details" class="workshop-title-time">
+                    <h3>No Code Tools</h3>
+                    <p class="time">Thursday, April 7th, 7-8 PM</p>
+                </div>
+                <p class="host">Hosted by Josiah Paintsil '23</p>
+                <p>The No-Code tools workshop is an interactive workshop where we will learn how to use popular No-Code tools to create an app, handle a database, establish automation, and deploy that app. </p>
+            </li>
+        </ul>
+
+        <h2>INTERMEDIATE</h2>
+
+        <ul>
+            <li>
+                <div id="django-details" class="workshop-title-time">
+                    <h3>Django Framework </h3>
+                    <p class="time">Tuesday, March 29th, 6-7 PM</p>
+                    <a href="#SPA-series">
+                        <button class="event-type SPA-series btn">
+                            Building a web app with Django and React pt. 1
+                        </button>
+                    </a>
+                </div>
+                <p class="host">Hosted by Bonnie Chin '22</p>
+                <p>Learn how to build a Django backend for a to-do app. </p>
+                <h4>Required Experience:</h4>
+                <ul>
+                    <li>
+                        <p>
+                            Some experience with Python
+                        </p>
+                    </li>
+                </ul>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/z4YF1BZNX-c" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="js-details" class="workshop-title-time">
+                    <h3>Javascript Basics</h3>
+                    <p class="time">Wednesday, March 30th, 5-6 PM</p>
+                </div>
+                <p class="host">Hosted by Lily Davisson '22</p>
+                <p>Learn the basics of JavaScript and make a static website interactive. If you do not have any experience with JavaScript, attend this before React Basics.</p>
+                <h4>Suggested Experience:</h4>
+                <ul>
+                    <li>
+                        <p>
+                            Experience with a c-like scripting language (Ex: Java, C), think curly braces and semi-colons
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            An understanding of the browser DOM OR attendance of web development basics workshop
+                        </p>
+                    </li>
+                </ul>
+                <button class="neutral collapse centered">
+                    Setup instructions
+                </button>
+                <div class="instructions">
+                    <p>Note: Code lines beginning with the '$' symbol indicate that everything AFTER the $ should be typed/copied in a terminal or command line.</p>
+                    <ol>
+                        <li><p>Install <a href="https://nodejs.org/en/">Node JS</a> using the install wizard. Use all of the recommended settings, don't change anything.</p></li>
+                        <li>
+                            <p>Ensure Node is installed correctly. Open a terminal (On Windows, open start and search for Windows terminal, on mac search for terminal from the launchpad) and type</p> 
+                            <code>$ node -v</code>
+                            <p>You should see something like the following:</p>
+                            <img src="images/workshop_images/jsbasics1.png" alt="Outputting the above code in a terminal outputs v16.4.2">
+                            <p>If it does not recognize node, it has not been installed correctly.</p>
+                        </li>
+                        <li>
+                            <p>
+                                Create a <a href="https://github.com/">Github</a> account if you do not already have one.
+                            </p>
+                        </li>
+                        <li>
+                            <p>Install Git: <a href="https://git-scm.com/">https://git-scm.com/</a></p>
+                        </li>
+                        <li>
+                            <p>Clone the <a href="https://github.com/techimmersionweek22/JS-Basics-Workshop">JS-Basics-Worshop repository</a> wherever you would like. It contains some start code.</p>
+                            <p>Ex to clone the repo to your desktop:</p>  
+                            <code>
+                                $ cd Desktop
+                            </code>
+                            <code>
+                                $ git clone https://github.com/techimmersionweek22/JS-Basics-Workshop.git
+                            </code>
+                            <p>If you use https instead of ssh to clone the repo as seen in the example above you will need to log in to your Github account as directed after you paste the above code.</p>
+                        </li>
+                    </ol>
+                </div>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/Lzvcuo4iR70" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                        <li><p>
+                            <a href="https://colab.research.google.com/drive/1cc21op3KzKDN0FWEicJHn0JzRz7PwwAk?usp=sharing">Intro To JavaScript Jupyter Notebook</a>
+                        </p></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="deploy-details" class="workshop-title-time">
+                    <h3>Personal Website Deployment using GitHub Pages</h3>
+                    <p class="time">Wednesday, March 30th, 6-7 PM</p>
+                    <a href="#personal-site-series">
+                        <button class="event-type personal-site-series btn">
+                            Building a personal website with GitHub Pages pt. 2
+                        </button>
+                    </a> 
+                </div>
+                <p class="host">Hosted by Ahmed Kamran '23</p>
+                <p>Learn how to host your personal websites for free by using GitHub Pages</p>
+                <h4>Suggested Experience:</h4>
+                <ul>
+                    <li>
+                        <p>
+                            Attendance of Web Development workshop
+                        </p>
+                    </li>
+                </ul>
+                <button class="neutral collapse centered">
+                    Setup instructions
+                </button>
+                <div class="instructions">
+                    <ul class="setup">
+                        <li>
+                            <p>Create a GitHub account: <a href="https://github.com/">https://github.com/</a></p>
+                        </li> 
+                        <li>
+                            <p>Install Git: <a href="https://git-scm.com/">https://git-scm.com/</a></p>
+                        </li>
+                        <li>
+                            <p>Install VS Code: <a href="https://code.visualstudio.com">https://code.visualstudio.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/-Jra38l_bko" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="react-details" class="workshop-title-time">
+                    <h3>React Basics</h3>
+                    <p class="time">Thursday, March 31st, 6-7 PM</p>
+                    <a href="#SPA-series">
+                        <button class="event-type SPA-series btn">
+                            Building a web app with Django and React pt. 2
+                        </button>
+                    </a>
+                </div>
+                <p class="host">Hosted by Ahmed Kamren '23</p>
+                <p>Learn the fundamentals of React, a front-end framework for building web applications with JavaScript, by building the front-end for a to-do list app.</p>     
+                <h4>Required Experience:</h4>
+                <ul>
+                    <li>
+                        <p>
+                            Experience with Javascript OR attendance of Javascript basics workshop
+                        </p>
+                    </li>
+                </ul>
+                <button class="neutral collapse centered">
+                    Setup instructions
+                </button>
+                <div class="instructions">
+                    <ol class="setup">
+                        <li>
+                            <p>Install Node JS: <a class="contact-link" href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></p>
+                        </li> 
+                        <li>
+                            <p>Install VS Code: <a class="contact-link" href="https://code.visualstudio.com">https://code.visualstudio.com</a></p>
+                        </li>
+                    </ol>
+                </div>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/ZP4DCOwI2BA" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="open-source-details" class="workshop-title-time">
+                    <h3>How to contribute to Open Source</h3>
+                    <p class="time">Friday, April 1st, 7-8 PM</p>
+                </div>
+                <p class="host">Hosted by Zach Birenbaum '22</p>
+                <p>This workshop will cover the necessary topics for someone to be able to make quality contributions to open source. Topics will include intermediate git functionality, choosing projects to contribute to, determining features to implement, guidelines for working in open source, and an interactive activity.</p>
+                <button class="neutral collapse centered">
+                    Setup instructions
+                </button>
+                <div class="instructions">
+                    <ul class="setup">
+                        <li>
+                            <p>Create a GitHub account: <a href="https://github.com/">https://github.com/</a></p>
+                        </li> 
+                        <li>
+                            <p>Install Git: <a href="https://git-scm.com/">https://git-scm.com/</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/D9GquEsiyLY" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="unit-testing-details" class="workshop-title-time">
+                    <h3>Unit Testing</h3>
+                    <p class="time">Tuesday, April 5th, 11:20 AM - 12:20 PM</p>
+                </div>
+                <p class="host">Hosted by Raluca Ghilea '22</p>
+                <p>A fundamental aspect of software engineering is code testing. In this workshop, you will learn how to write tests for individual functions using Python's unittest library. We will also cover more complex topics such as mocking and stubbing, and you will get a chance to practice writing your own unit tests!  </p>
+                <h4>Required Experience:</h4>
+                <ul>
+                    <li>
+                        <p>
+                            Some experience with Python OR attendance of the Intro to Python workshop
+                        </p>
+                    </li>
+                </ul>
+                <button class="neutral collapse centered">
+                    Setup instructions
+                </button>
+                <div class="instructions">
+                    <ul class="setup">
+                        <li>
+                            <p>Download Python: <a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a></p>
+                        </li> 
+                        <li>
+                            <p>Install Git: <a href="https://git-scm.com/" target="_blank">https://git-scm.com/</a></p>
+                        </li>
+                        <li>
+                            <p>Create a GitHub account: <a href="https://github.com/" target="_blank">https://github.com/</a></p>
+                        </li>
+                        <li>
+                            <p>Clone this repository: <a href="https://github.com/techimmersionweek22/Unit-Testing.git" target="_blank">https://github.com/techimmersionweek22/Unit-Testing.git</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/Vg8MYqGkSxw" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div id="rest-details" class="workshop-title-time">
+                    <h3>REST APIs</h3>
+                    <p class="time">Wednesday, April 6th, 6-7 PM</p>
+                </div>
+                <p class="host">Hosted by Raluca Ghilea '22</p>
+                <p>Most applications on the internet communicate with each other via Application Programming Interfaces (APIs). In this workshop, we will go over the fundamentals of HTTP requests and REST design principles, and we will apply these concepts in building a simple REST API using the FastAPI framework.  </p>
+                <h4>Required Experience:</h4>
+                <ul>
+                    <li>
+                        <p>
+                            Some experience with Python OR attendance of the Intro to Python workshop
+                        </p>
+                    </li>
+                </ul>
+                <button class="neutral collapse centered inactive">
+                    Setup instructions coming soon
+                </button>
+                <div class="instructions">
+                </div>    
+            </li>
+        </ul>
+
+        <h2>ADVANCED</h2>
+        <ul>
+            <li>
+                <div id="functional-details" class="workshop-title-time">
+                    <h3>Functional Programming with OCaml</h3>
+                    <p class="time">Saturday, April 2nd, 7-8 PM</p>
+                </div>
+                <p class="host">Hosted by Taz Syed '22</p>
+                <button class="neutral collapse centered">
+                    Recording and other materials
+                </button>
+                <div class="instructions">
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://youtu.be/iHLdlNSqXfE" target="_blank">Recording</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <p>How many times has your program crashed due to a null pointer exception or a runtime error? Learn a functional programming language that maps much closer to the way humans naturally think, and ensures that if your program compiles then it works.</p>
+                <h4>Required Experience:</h4>
+                <ul>
+                    <li>
+                        <p>
+                            Experience with a scripting language like Python or Java
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div id="spa-details" class="workshop-title-time">
+                    <h3>Building a single page app using Django and React</h3>
+                    <p class="time">Wednesday, April 6th, 7-8 PM</p>
+                    <a href="#SPA-series">
+                        <button class="event-type SPA-series btn">
+                            Building a web app with Django and React pt. 3
+                        </button>
+                    </a>
+                </div>
+                <p class="host">Hosted by Lily Davisson '22</p>
+                <p>Combine what you learned in the Django Framework and React Basics workshops to create a dynamic single page to-do list application.</p>
+                <h4>Required Experience:</h4>
+                <ul>
+                    <li>
+                        <p>
+                            Attendance of React Basics workshop
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Attendance of Django workshop
+                        </p>
+                    </li>
+                </ul>
+                <button class="neutral collapse centered">
+                    Setup instructions
+                </button>
+                <div class="instructions">
+                    <p>Clone <a target="_blank" href="https://github.com/techimmersionweek22/Demo-To-Do-SPA">the repository</a> that has our progress up to this point.</p>
+                </div>
+            </li>
+        </ul>
+
+        <h2 id="all-series">Workshop Series</h2>
+        <div class="workshop-line">
+            <p id="personal-site-series" class="event-type personal-site-series">Building a personal website with GitHub Pages</p>
+        </div>
+        <p>This series consists of the following two workshops:</p>
+        <ol>
+            <li>
+                <div class="workshop-title-time">
+                    <a href="#webdev-details">
+                        <h3>Web Development Fundamentals </h3>
+                    </a>
+                    <p class="time"> Monday, March 28th, 6-7 PM</p>
+                </div>
+            </li>
+            <li>
+                <div class="workshop-title-time">
+                    <a href="#deploy-details">
+                        <h3>Personal Website Deployment using GitHub Pages</h3>
+                    </a>
+                    <p class="time">Wednesday, March 30th, 6-7 PM</p>
+                </div>
+            </li>
+        </ol>
+
+        <div class="workshop-line">
+            <p id="SPA-series" class="event-type SPA-series">Building a web app with Django and React</p>
+        </div>
+        <p>This series consists of the following three workshops:</p>
+        <ol>
+            <li>
+                <div class="workshop-title-time">
+                    <a href="#django-details">
+                        <h3>Django Framework </h3>
+                    </a>
+                    <p class="time">Tuesday, March 29th, 6-7 PM</p>
+                </div>
+            </li>
+            <li>
+                <div class="workshop-title-time">
+                    <a href="#react-details">
+                        <h3>React Basics</h3>
+                    </a>
+                    <p class="time">Thursday, March 31st, 6-7 PM</p>
+                </div>
+            </li>
+            <li>
+                <div class="workshop-title-time">
+                    <a href="#spa-details">
+                        <h3>Building a single page app using Django and React</h3>
+                    </a>
+                    <p class="time">Wednesday, April 6th, 7-8 PM</p>
+                </div>
+            </li>
+        </ol>
+        
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.poptrox.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/onpopups.js"></script>
+
+        <!-- <script src="assets/js/main.js"></script> -->
+	</body>
+</html>
